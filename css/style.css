@@ -1,0 +1,69 @@
+/*
+Colours used:
+Primary Colour (Dark Grey): 33,33,33
+Primary Colour (Light Purple): 164, 157, 146
+Secondary Colour (Light Grey): 236, 236, 236
+Secondary Colour (White): 252, 253, 249
+Secondary Colour (Purple): 56, 27, 38
+*/
+html {
+    font-size: 62.5%;
+}
+body {
+    background-color: rgb(252, 253, 249);
+    font-family: 'Figtree', sans-serif;
+    font-size: 1.8rem;
+    font-weight: 300;
+    line-height: 1.6; 
+    color: rgb(33, 33, 33);
+}
+h1, h2, h3, h4 {
+    line-height: 1.2;
+}
+h1 {
+    font-size: 5rem;
+    font-weight: 700;
+}
+h2 {
+    font-size: 4rem;
+    font-weight: 700;
+}
+h3 {
+    font-size: 3rem;
+    font-weight: 400;
+}
+img {
+    width: 100%;
+}
+a {
+    color: rgb(56, 27, 38);
+}
+a:visited {
+    color: rgb(56, 27, 38);
+}
+a:hover,
+a:focus {
+    color: rgb(164, 157, 146);
+}
+a:active {
+    color: rgb(164, 157, 146);
+}
+.btn {
+    display: inline-block;
+    background-color: rgb(56, 27, 38);
+    color: rgb(252, 253, 249);
+    font-weight: 400;
+    padding: 12px 24px;
+    border-radius: 3px;
+    transition: 0.2s opacity;
+    text-decoration: none;
+    line-height: 1;
+}
+.btn:visited {
+    color: rgb(252, 253, 249);
+}
+.btn:hover,
+.btn:focus,
+.btn:active {
+    opacity: 0.8;
+}
