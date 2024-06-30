@@ -11,6 +11,7 @@ Secondary Colour (Purple): 337,34.9,16.3
 }
 html {
     font-size: 62.5%;
+    scroll-behavior: smooth;
 }
 body {
     background-color: hsl(75, 50%, 98.4%);
@@ -175,9 +176,6 @@ main {
     animation-direction: alternate;
     animation-timing-function: linear;
 }
-.hero h1 {
-    
-}
 .hero h1 span {
     display: block;
     font-family: 'Figtree', sans-serif;
@@ -203,9 +201,6 @@ main {
     display: block;
     overflow: hidden;
     line-height: 0;
-}
-.project-card__content-wrapper {
-    
 }
 .content {
     display: flex;
